@@ -232,14 +232,10 @@
   height: 48px;
 }
 .about-card h2 {
-  font-size: 1.3rem;
-  font-weight: 700;
-  margin-bottom: 12px;
-  color: var(--text);
+  color: #14532d;
 }
 .about-card p {
-  font-size: 1rem;
-  color: var(--text);
+  color: #14532d;
 }
 .about-why {
   background: var(--accent);
