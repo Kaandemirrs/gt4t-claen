@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | GreenTech 4 Transformation</title>
+  <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header__container">
+      <div class="header__logo">GreenTech4Transformation</div>
+      <div class="header__sponsor-logos">
+        <img src="assets/images/eit-rawmaterials.png" alt="EIT RawMaterials ve AB logosu" class="header__sponsor-logo" loading="lazy" />
+      </div>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__menu-item"><a href="index.html">Home</a></li>
+          <li class="header__menu-item"><a href="about.html">About Us</a></li>
+          <li class="header__menu-item header__menu-item--partners"><a href="partners.html">Partners</a></li>
+          <li class="header__menu-item"><a href="news.html">News</a></li>
+          <li class="header__menu-item"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="container">
+      <h1 class="contact-page__title animate">Contact</h1>
+      <div class="contact-card">
+        <!-- Sol Sütun: Bilgi Alanı -->
+        <div class="contact-card__info">
+          <h2>Contact Information</h2>
+          <ul class="contact-details">
+            <li><img src="assets/icons/ic_sharp-email.png" alt="E-posta ikonu" loading="lazy" /><a href="mailto:info@greentech4transformation.eu">info@greentech4transformation.eu</a></li>
+          </ul>
+        </div>
+        <!-- Sağ Sütun: Form Alanı -->
+        <form class="contact-card__form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" name="first-name" required>
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" name="last-name" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div class="form-group">
+            <label>Select Subject</label>
+            <div class="radio-options">
+              <label><input type="radio" name="subject" value="General Inquiry" checked> General Inquiry</label>
+              <label><input type="radio" name="subject" value="Partnership"> Partnership</label>
+              <label><input type="radio" name="subject" value="Support"> Support</label>
+              <label><input type="radio" name="subject" value="Other"> Other</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="contact-card__button">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer (Daha öncekiyle aynı) -->
+  <footer class="footer">
+    <div class="footer__container">
+      <!-- Sütun 1: Marka ve Sosyal Medya -->
+      <div class="footer__info">
+        <a href="#" class="footer__brand">GreenTech4Transformation</a>
+        <div class="footer__logos">
+          <div class="footer__logos-combined">
+            <img src="assets/images/eit-rawmaterials.png" alt="EIT RawMaterials ve AB logosu" class="footer__logo-img" loading="lazy" />
+          </div>
+        </div>
+      </div>
+      <!-- Sütun 2: Pages Linkleri -->
+      <div class="footer__links">
+        <h4 class="footer__title">Pages</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="partners.html">Product</a></li>
+          <li><a href="news.html">Blog</a></li>
+        </ul>
+      </div>
+      <!-- Sütun 3: About Linkleri -->
+      <div class="footer__links">
+        <h4 class="footer__title">About</h4>
+        <ul>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Our Service</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="#">Benefit</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html> 
